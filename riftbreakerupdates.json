@@ -1,0 +1,15 @@
+[
+    {
+        "UpdateStageName": "SteamCMD Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "4114030",
+        "ForceDownloadPlatform": "Windows"
+    },
+    {
+        "UpdateStageName": "Proton Compatibility Layer",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "2348590"
+    }
+]

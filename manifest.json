@@ -1,0 +1,14 @@
+{
+    "id": "riftbreaker-amp-template",
+    "origin": "community",
+    "url": "https://github.com/YOUR_USERNAME/riftbreaker-amp-template",
+    "prefix": "[Community] ",
+    "templates": [
+        {
+            "id": "riftbreaker",
+            "name": "The Riftbreaker",
+            "description": "The Riftbreaker Dedicated Server - A base-building survival game with up to 4 player co-op",
+            "config": "riftbreaker.kvp"
+        }
+    ]
+}

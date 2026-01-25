@@ -1,0 +1,22 @@
+[
+    {
+        "ConfigFile": "server_config.cfg",
+        "ConfigType": "kvp",
+        "ConfigFormat": "set {0} {1}",
+        "AutoMap": false,
+        "Subsections": [
+            {
+                "Heading": "$root",
+                "SettingMappings": {
+                    "ServerName": "server_name",
+                    "ServerPassword": "server_password",
+                    "MaxPlayers": "max_players",
+                    "PublicServer": "public_server",
+                    "GameMode": "game_mode",
+                    "Difficulty": "difficulty",
+                    "AllowMods": "allow_mods"
+                }
+            }
+        ]
+    }
+]

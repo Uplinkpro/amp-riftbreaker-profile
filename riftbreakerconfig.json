@@ -1,0 +1,123 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Description": "The name of your server as it appears in the server browser.",
+        "Category": "Server Settings",
+        "Keywords": "name,title,server",
+        "FieldName": "ServerName",
+        "InputType": "text",
+        "ParamFieldName": "servername",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "My Riftbreaker Server",
+        "Required": true
+    },
+    {
+        "DisplayName": "Server Password",
+        "Description": "Password required to join the server. Leave empty for no password.",
+        "Category": "Server Settings",
+        "Keywords": "password,private,security",
+        "FieldName": "ServerPassword",
+        "InputType": "password",
+        "ParamFieldName": "password",
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
+        "DefaultValue": ""
+    },
+    {
+        "DisplayName": "Max Players",
+        "Description": "Maximum number of players allowed on the server (1-4).",
+        "Category": "Server Settings",
+        "Keywords": "players,max,slots",
+        "FieldName": "MaxPlayers",
+        "InputType": "number",
+        "ParamFieldName": "maxplayers",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "4",
+        "MinValue": 1,
+        "MaxValue": 4
+    },
+    {
+        "DisplayName": "Public Server",
+        "Description": "If enabled, the server will be listed in the public server browser.",
+        "Category": "Server Settings",
+        "Keywords": "public,visible,browser,list",
+        "FieldName": "PublicServer",
+        "InputType": "checkbox",
+        "ParamFieldName": "public",
+        "IncludeInCommandLine": true,
+        "EnumValues": {
+            "False": "0",
+            "True": "1"
+        },
+        "DefaultValue": "True"
+    },
+    {
+        "DisplayName": "Game Mode",
+        "Description": "The game mode for the server.",
+        "Category": "Game Settings",
+        "Keywords": "mode,campaign,survival",
+        "FieldName": "GameMode",
+        "InputType": "enum",
+        "ParamFieldName": "gamemode",
+        "IncludeInCommandLine": true,
+        "EnumValues": {
+            "campaign": "Campaign",
+            "survival": "Survival"
+        },
+        "DefaultValue": "campaign"
+    },
+    {
+        "DisplayName": "Difficulty",
+        "Description": "The difficulty level for the game.",
+        "Category": "Game Settings",
+        "Keywords": "difficulty,hard,easy,normal",
+        "FieldName": "Difficulty",
+        "InputType": "enum",
+        "ParamFieldName": "difficulty",
+        "IncludeInCommandLine": true,
+        "EnumValues": {
+            "easy": "Easy",
+            "normal": "Normal",
+            "hard": "Hard",
+            "brutal": "Brutal"
+        },
+        "DefaultValue": "normal"
+    },
+    {
+        "DisplayName": "Allow Mods",
+        "Description": "If enabled, allows modded clients to connect to the server.",
+        "Category": "Game Settings",
+        "Keywords": "mods,modding,modifications",
+        "FieldName": "AllowMods",
+        "InputType": "checkbox",
+        "ParamFieldName": "allowmods",
+        "IncludeInCommandLine": true,
+        "EnumValues": {
+            "False": "0",
+            "True": "1"
+        },
+        "DefaultValue": "False"
+    },
+    {
+        "DisplayName": "Game Port",
+        "Description": "The UDP port used for game traffic.",
+        "Category": "Network Settings",
+        "Keywords": "port,network,udp",
+        "FieldName": "GamePort",
+        "InputType": "hidden",
+        "ParamFieldName": "port",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "{{$ApplicationPort1}}"
+    },
+    {
+        "DisplayName": "Query Port",
+        "Description": "The UDP port used for server queries.",
+        "Category": "Network Settings",
+        "Keywords": "query,port,steam",
+        "FieldName": "QueryPort",
+        "InputType": "hidden",
+        "ParamFieldName": "queryport",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "{{$ApplicationPort2}}"
+    }
+]
