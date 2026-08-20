@@ -7,6 +7,21 @@
     "ForceDownloadPlatform": "Windows"
   },
   {
+    "UpdateStageName": "Steam Linux Runtime",
+    "UpdateSource": "SteamCMD",
+    "UpdateSourceData": "1391110",
+    "UpdateSourcePlatform": "Linux"
+  }
+]
+[
+  {
+    "UpdateStageName": "SteamCMD Download",
+    "UpdateSource": "SteamCMD",
+    "UpdateSourceData": "4114030",
+    "UpdateSourcePlatform": "All",
+    "ForceDownloadPlatform": "Windows"
+  },
+  {
     "UpdateStageName": "Proton Hotfix Compatibility Layer",
     "UpdateSource": "SteamCMD",
     "UpdateSourceData": "2180100",
