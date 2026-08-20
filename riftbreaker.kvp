@@ -19,11 +19,11 @@ Meta.NoCommercialUsage=False
 App.DisplayName=The Riftbreaker
 App.RootDir=./riftbreaker/
 App.BaseDirectory=./riftbreaker/
-App.ExecutableWin=4114030\riftbreaker_ds.exe
+App.ExecutableWin=4114030\DedicatedServer.exe
 App.ExecutableLinux=/usr/bin/wine
 App.WorkingDir=4114030
-App.WindowsCommandLineArgs=
-App.LinuxCommandLineArgs=./riftbreaker_ds.exe
+App.WindowsCommandLineArgs=cli=1 config=config.cfg
+App.LinuxCommandLineArgs=./DedicatedServer.exe cli=1 config=config.cfg
 App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}}
 App.CommandLineParameterFormat=-{0} "{1}"
 App.UseLinuxIOREDIR=False
