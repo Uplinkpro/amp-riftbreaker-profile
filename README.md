@@ -5,7 +5,7 @@ AMP (Application Management Panel) template for The Riftbreaker Dedicated Server
 ## Features
 
 - **Steam App ID:** 4114030 (Free dedicated server app)
-- **Windows & Linux Support:** Runs natively on Windows, uses Proton 8.0 on Linux
+- **Windows & Linux Support:** Runs natively on Windows, uses Proton Exeperimental on Linux
 - **Docker Recommended on Linux:** Uses `cubecoders/ampbase:wine-stable` container
 - **Co-op Support:** Up to 4 players
 - **Configurable Settings:** Server name, password, game mode, difficulty, and more
@@ -72,7 +72,7 @@ To contribute to the official repository:
 ## Notes
 
 - The dedicated server app (4114030) is free to download and supports anonymous SteamCMD login
-- On Linux, the template downloads Proton 8.0 (Steam App ID 2348590) automatically
+- On Linux, the template downloads Proton Exeperimental (Steam App ID 1493710) automatically
 - Docker is recommended on Linux to avoid manually installing Wine dependencies
 - Console regex patterns may need adjustment based on actual server output
 
