@@ -7,9 +7,9 @@
     "ForceDownloadPlatform": "Windows"
   },
   {
-    "UpdateStageName": "Proton 10 Compatibility Layer",
+    "UpdateStageName": "Proton Hotfix Compatibility Layer",
     "UpdateSource": "SteamCMD",
-    "UpdateSourceData": "3658110",
+    "UpdateSourceData": "2180100",
     "UpdateSourcePlatform": "Linux"
   }
 ]
