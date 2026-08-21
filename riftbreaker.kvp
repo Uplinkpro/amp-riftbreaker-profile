@@ -9,6 +9,7 @@ Meta.MetaConfigManifest=riftbreakermetaconfig.json
 Meta.ConfigRoot=riftbreaker.kvp
 Meta.ConfigVersion=3
 Meta.AppConfigId=a7b8c9d0-e1f2-3456-7890-abcdef123456
+Meta.MinAMPVersion=2.4.5.0
 # NOTE: Dropped Docker/SpecificDockerImage requirement - on a plain LXC
 # (no nested Docker configured) this alone can block instance startup.
 # The Proton pattern below runs directly on the host via SteamCMD.
