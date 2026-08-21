@@ -13,7 +13,7 @@ Meta.AppConfigId=a7b8c9d0-e1f2-3456-7890-abcdef123456
 Meta.SpecificDockerImage=cubecoders/ampbase:wine-stable
 Meta.DockerRequired=True
 Meta.ContainerPolicy=RequiredOnLinux
-Meta.ContainerPolicyReason=The server requires Wine and an isolated virtual frame-buffer display to run properly.
+Meta.ContainerPolicyReason=The server requires a specialized virtual execution runtime environment to run safely.
 Meta.ConfigReleaseState=NotSpecified
 Meta.NoCommercialUsage=False
 App.DisplayName=The Riftbreaker
@@ -27,7 +27,7 @@ App.LinuxCommandLineArgs=./DedicatedServer.exe -headless disable_steam=1
 App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}}
 App.CommandLineParameterFormat=-{0} "{1}"
 App.UseLinuxIOREDIR=False
-App.EnvironmentVariables={"SteamAppId": "780310", "WINEDEBUG": "-all", "DISPLAY": ":99"}
+App.EnvironmentVariables={"SteamAppId": "780310", "WINEDEBUG": "-all", "WINE_DRIVER": "null"}
 App.ExitMethod=String
 App.ExitString=quit
 App.ExitTimeout=30
