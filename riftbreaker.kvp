@@ -10,17 +10,17 @@ Meta.ConfigRoot=riftbreaker.kvp
 Meta.MinAMPVersion=2.4.5.0
 Meta.ConfigVersion=1
 Meta.AppConfigId=a7b8c9d0-e1f2-3456-7890-abcdef123456
-Meta.SpecificDockerImage=ghcr.io/pterodactyl/yolks:wine_stable
+Meta.SpecificDockerImage=ghcr.io/parkervcp/yolks:wine_staging
 Meta.DockerRequired=True
 Meta.ContainerPolicy=RequiredOnLinux
-Meta.ContainerPolicyReason=The server requires an advanced Wine container equipped with a virtual frame-buffer display to run properly.
+Meta.ContainerPolicyReason=The server requires a specialized Wine container with a virtual frame-buffer display to run properly.
 Meta.ConfigReleaseState=NotSpecified
 Meta.NoCommercialUsage=False
 App.DisplayName=The Riftbreaker
 App.RootDir=./riftbreaker/
 App.BaseDirectory=./riftbreaker/
 App.ExecutableWin=4114030\bin\DedicatedServer.exe
-App.ExecutableLinux=/usr/local/bin/wine
+App.ExecutableLinux=/usr/bin/wine
 App.WorkingDir=4114030/bin
 App.WindowsCommandLineArgs=disable_steam=1
 App.LinuxCommandLineArgs=./DedicatedServer.exe disable_steam=1
