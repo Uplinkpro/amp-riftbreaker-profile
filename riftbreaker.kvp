@@ -3,7 +3,6 @@ Meta.Description=The Riftbreaker Dedicated Server - A base-building survival gam
 Meta.OS=3
 Meta.Author=Community Contributed
 Meta.URL=https://www.riftbreaker.com/
-
 Meta.DisplayImageSource=steam:780310
 Meta.EndpointURIFormat=
 Meta.ConfigManifest=riftbreakerconfig.json
